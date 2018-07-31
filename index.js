@@ -3,7 +3,7 @@ function iterativeLog(array) {
   });
 }
 
-function iterate(array, callback) {
+function iterate(callback) {
   var evens = [0, 2, 4, 6, 8, 10];
   evens.forEach(callback);
   return evens;
