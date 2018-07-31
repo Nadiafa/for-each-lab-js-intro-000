@@ -12,19 +12,3 @@ function iterate(callback) {
 function doToArray(array, callback) {
   array.forEach(callback);
 }
-
-
-// 3) index doToArray(array, callback) uses `callback` as the callback for `array`.forEach:
-//   ReferenceError: doToArray is not defined
-//     at Context.<anonymous> (test/index-test.js:41:7)
-      
-      
-// function doToElementsInArray(array, callback) {
-//   array.forEach(callback);
-// }
-
-// // Add your changeCompletely() function here:
-
-// function changeCompletely(element, index, array) {
-//   array[index] = Math.floor(Math.random() * 100 + 2).toString() + ` ${array[index]}s!!!`;
-// }
